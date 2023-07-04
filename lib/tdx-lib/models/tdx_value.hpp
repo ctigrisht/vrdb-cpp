@@ -1,27 +1,44 @@
 #pragma once
 
-class tdx_value
+namespace tdx_models
 {
-private:
-    /* data */
-public:
-    tdx_value(/* args */);
-    ~tdx_value();
-};
+    class tdx_value
+    {
+    private:
+        /* data */
+    public:
+        tdx_value(/* args */);
+        ~tdx_value();
+    };
 
-// tdx_value::tdx_value(/* args */)
-// {
-// }
+    // tdx_value::tdx_value(/* args */)
+    // {
+    // }
 
-// tdx_value::~tdx_value()
-// {
-// }
+    // tdx_value::~tdx_value()
+    // {
+    // }
 
-enum tdx_value_type{
-    string,
-    int16,
-    int32,
-    uint16,
-    uint32,
-    
-};
+    enum struct tdx_value_type
+    {
+        string,
+        int16,
+        int32,
+        int64,
+        int128,
+        uint16,
+        uint32,
+        uint64,
+        uint128,
+        float32,
+        float64,
+        decimal,
+        blob,
+        blob_ref,
+        json,
+        document,
+
+        // relationships
+        link_ref,        
+    };
+}

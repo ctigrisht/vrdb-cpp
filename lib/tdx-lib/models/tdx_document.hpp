@@ -3,7 +3,9 @@
 #include <unordered_map>
 #include <string>
 
-using namespace std;
+#include "tdx_value.hpp"
+
+// using namespace std;
 
 namespace tdx_models{
     class tdx_document
@@ -11,8 +13,9 @@ namespace tdx_models{
     private:
         /* data */
     public:
-        string Header;
-        // unordered_map<string, > 
+        std::string Header;
+        std::unordered_map<std::string, tdx_value> Values; 
+        tdx_value_type Type = tdx_value_type::int32;
 
         tdx_document(/* args */);
         ~tdx_document();
