@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(vrdb)
+
+set(CMAKE_CXX_STANDARD 23)
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build/bin)
+
+add_executable(${PROJECT_NAME} main.cpp)
+# set(CMAKE_BINARY_DIR build)
