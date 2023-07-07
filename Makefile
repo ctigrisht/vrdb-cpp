@@ -129,6 +129,19 @@ vrdb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb.dir/build.make CMakeFiles/vrdb.dir/build
 .PHONY : vrdb/fast
 
+#=============================================================================
+# Target rules for targets named vrdb-tests
+
+# Build rule for target.
+vrdb-tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vrdb-tests
+.PHONY : vrdb-tests
+
+# fast build rule for target.
+vrdb-tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/build
+.PHONY : vrdb-tests/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +166,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb.dir/build.make CMakeFiles/vrdb.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tests/tests.o: tests/tests.cpp.o
+.PHONY : tests/tests.o
+
+# target to build an object file
+tests/tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/tests/tests.cpp.o
+.PHONY : tests/tests.cpp.o
+
+tests/tests.i: tests/tests.cpp.i
+.PHONY : tests/tests.i
+
+# target to preprocess a source file
+tests/tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/tests/tests.cpp.i
+.PHONY : tests/tests.cpp.i
+
+tests/tests.s: tests/tests.cpp.s
+.PHONY : tests/tests.s
+
+# target to generate assembly for a file
+tests/tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/tests/tests.cpp.s
+.PHONY : tests/tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vrdb"
+	@echo "... vrdb-tests"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tests/tests.o"
+	@echo "... tests/tests.i"
+	@echo "... tests/tests.s"
 .PHONY : help
 
 

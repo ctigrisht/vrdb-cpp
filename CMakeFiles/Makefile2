@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/khamas/Dev/EntitySystems/vrdb-cpp
 
 # The main recursive "all" target.
 all: CMakeFiles/vrdb.dir/all
+all: CMakeFiles/vrdb-tests.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/vrdb.dir/clean
+clean: CMakeFiles/vrdb-tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ vrdb: CMakeFiles/vrdb.dir/rule
 CMakeFiles/vrdb.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb.dir/build.make CMakeFiles/vrdb.dir/clean
 .PHONY : CMakeFiles/vrdb.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vrdb-tests.dir
+
+# All Build rule for target.
+CMakeFiles/vrdb-tests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles --progress-num=3,4 "Built target vrdb-tests"
+.PHONY : CMakeFiles/vrdb-tests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vrdb-tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vrdb-tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles 0
+.PHONY : CMakeFiles/vrdb-tests.dir/rule
+
+# Convenience name for target.
+vrdb-tests: CMakeFiles/vrdb-tests.dir/rule
+.PHONY : vrdb-tests
+
+# clean rule for target.
+CMakeFiles/vrdb-tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vrdb-tests.dir/build.make CMakeFiles/vrdb-tests.dir/clean
+.PHONY : CMakeFiles/vrdb-tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -10,7 +10,7 @@ namespace tdx_serde{
         throw "Not implemented";
     }
 
-    std::shared_ptr<uint8_t[]> serialize(){
+    std::shared_ptr<std::byte[]> serialize(){
         throw "Not implemented";
     }
     

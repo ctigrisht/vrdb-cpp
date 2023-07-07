@@ -258,4 +258,24 @@ CMakeFiles/vrdb.dir/main.cpp.o
  /usr/include/c++/11/bits/uses_allocator_args.h
  /usr/include/c++/11/pstl/glue_memory_defs.h
  /usr/include/c++/11/pstl/execution_defs.h
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_all.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum.hpp
+ /usr/include/c++/11/cstddef
+ /usr/include/c++/11/functional
+ /usr/include/c++/11/bits/std_function.h
+ /usr/include/c++/11/vector
+ /usr/include/c++/11/bits/stl_vector.h
+ /usr/include/c++/11/bits/stl_bvector.h
+ /usr/include/c++/11/bits/vector.tcc
+ /usr/include/c++/11/limits
+ /usr/include/c++/11/optional
+ /usr/include/c++/11/cassert
+ /usr/include/assert.h
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_containers.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_flags.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_format.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_fuse.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_iostream.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_switch.hpp
+ /home/khamas/Dev/EntitySystems/vrdb-cpp/lib/imports/magic_enum/magic_enum_utility.hpp
 
