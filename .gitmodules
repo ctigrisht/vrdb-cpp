@@ -1,0 +1,3 @@
+[submodule "lib/imports/tdx-lib"]
+	path = lib/imports/tdx-lib
+	url = https://github.com/ctigrisht/tdx-lib
