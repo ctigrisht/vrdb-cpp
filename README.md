@@ -1,3 +1,8 @@
+<br/>
+<center>
+<img src="https://cdn.entitysystems.co/vrdb_logo.png" width="100">
+</center>
+
 # WELCOME TO VRDB
 ## Vector Relational Database
 
