@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/khamas/Dev/EntitySystems/vrdb-cpp/main.cpp" "CMakeFiles/vrdb.dir/main.cpp.o" "gcc" "CMakeFiles/vrdb.dir/main.cpp.o.d"
+  "/home/khamas/Dev/EntitySystems/vrdb/vrdb-cpp/main.cpp" "CMakeFiles/vrdb.dir/main.cpp.o" "gcc" "CMakeFiles/vrdb.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

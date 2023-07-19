@@ -1,3 +1,4 @@
-/home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles/vrdb.dir
-/home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles/edit_cache.dir
-/home/khamas/Dev/EntitySystems/vrdb-cpp/CMakeFiles/rebuild_cache.dir
+/home/khamas/Dev/EntitySystems/vrdb/vrdb-cpp/CMakeFiles/vrdb.dir
+/home/khamas/Dev/EntitySystems/vrdb/vrdb-cpp/CMakeFiles/vrdb-tests.dir
+/home/khamas/Dev/EntitySystems/vrdb/vrdb-cpp/CMakeFiles/edit_cache.dir
+/home/khamas/Dev/EntitySystems/vrdb/vrdb-cpp/CMakeFiles/rebuild_cache.dir
