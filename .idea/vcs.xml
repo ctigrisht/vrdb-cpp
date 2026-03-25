@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/imports/tdx-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/imports/tdx-lib/lib/imports/json" vcs="Git" />
   </component>
 </project>

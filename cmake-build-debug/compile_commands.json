@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug/lib/imports -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/vrdb.dir/main.cpp.o -c /Users/jayantachakrabarty/CLionProjects/vrdb-cpp/main.cpp",
+  "file": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/main.cpp",
+  "output": "CMakeFiles/vrdb.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug/lib/imports -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/vrdb.dir/lib/vrdb/storage_engine/tds_streamer/tds_string.cpp.o -c /Users/jayantachakrabarty/CLionProjects/vrdb-cpp/lib/vrdb/storage_engine/tds_streamer/tds_string.cpp",
+  "file": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/lib/vrdb/storage_engine/tds_streamer/tds_string.cpp",
+  "output": "CMakeFiles/vrdb.dir/lib/vrdb/storage_engine/tds_streamer/tds_string.cpp.o"
+},
+{
+  "directory": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++  -I/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/cmake-build-debug/lib/imports -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/vrdb.dir/lib/vrdb/storage_engine/async_io/async_fs.cpp.o -c /Users/jayantachakrabarty/CLionProjects/vrdb-cpp/lib/vrdb/storage_engine/async_io/async_fs.cpp",
+  "file": "/Users/jayantachakrabarty/CLionProjects/vrdb-cpp/lib/vrdb/storage_engine/async_io/async_fs.cpp",
+  "output": "CMakeFiles/vrdb.dir/lib/vrdb/storage_engine/async_io/async_fs.cpp.o"
+}
+]
